@@ -14,29 +14,33 @@
 }
 
 .header{
-height: 600px;
+height: 800px;
 background-image: url("assets/img/post-image.jpg");
 background-size: 100%;
 background-repeat: no-repeat;
 }
 
 .header__inner-text{
-  position: absolute;
+  padding-top:202px;
+  text-align: center;
 }
 
 .header__inner-text h2{
   color: white;
   font-size: 60px;
-  padding-top:202px;
 }
 
+.header__inner-icon{
+  font-size: 100px;
+  color: white;
+}
 .blog__inner{
   font-family: roboto;
   font-weight: 300;
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: solid black 1px;
-  color: #323333;
+  color:  #707070;
 }
 
 .Autor{
@@ -55,9 +59,10 @@ background-repeat: no-repeat;
 
 .Autor__info{
   padding-left: 51px;
+  color:  #707070;
 }
 .Autor__info h3{
-  margin-top: 140px;
+  margin-top: 100px;
 
   font-family:"Playfair Display, serif";
   font-style: bold 700 italic;
@@ -65,7 +70,8 @@ background-repeat: no-repeat;
   }
 
 .Autor__contact-inner{
-  margin-top: 110px;
+  margin-top: 77px;
+  color:  #707070;
 }
 
 .Entradas{
@@ -75,6 +81,12 @@ background-repeat: no-repeat;
   padding:20px;
   color:white;
   font-family: roboto;
+}
+
+.blog__inner-icons{
+  font-size: 30px;
+  padding-top: 30px;
+  color:  #707070;
 }
 
 .Footer__inner{
